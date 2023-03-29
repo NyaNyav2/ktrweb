@@ -11,7 +11,7 @@ root.render(
     
     <BrowserRouter>
       <Routes>
-        <Route path='/ktrweb' element={<App/>}/>
+        <Route path='/' element={<App/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/login' element={<Login/>}/>
         
